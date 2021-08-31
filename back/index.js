@@ -3,7 +3,6 @@ const mongoose = require('mongoose');
 const postsRouter = require("./router");
 const fileUpload = require('express-fileupload');
 
-
 const PORT = 5001;
 const PASSWORD = 'todo';
 const DB = `mongodb+srv://todo:${PASSWORD}@cluster0.lxld8.mongodb.net/ulbiTV?retryWrites=true&w=majority`

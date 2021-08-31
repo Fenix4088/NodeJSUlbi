@@ -21,5 +21,6 @@ class PostService {
         return POST.findByIdAndUpdate(post._id, post, {new: true});
     }
 }
+console.log("hello");
 
 module.exports = new PostService();

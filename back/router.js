@@ -11,5 +11,5 @@ postsRouter.post('/posts', PostController.create);
 postsRouter.put('/posts', PostController.update);
 
 postsRouter.delete('/posts/:id?', PostController.delete)
-
+console.log("hello");
 module.exports = postsRouter;

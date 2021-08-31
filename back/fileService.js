@@ -16,5 +16,6 @@ class FileService {
 
     }
 }
+console.log("hello");
 
 module.exports = new FileService();

@@ -6,6 +6,7 @@ const Post = new Schema({
     content: {type: String, required: true},
     picture: {type: String}
 });
+console.log("hello");
 
 const postSchema = model('Post', Post);
 

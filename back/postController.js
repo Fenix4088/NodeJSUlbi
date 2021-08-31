@@ -66,5 +66,6 @@ class PostController {
     }
 }
 
+console.log("hello");
 
 module.exports = new PostController();
